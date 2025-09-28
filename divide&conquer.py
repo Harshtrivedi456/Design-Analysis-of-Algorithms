@@ -1,0 +1,11 @@
+def power(x,n):
+    if (n == 0):
+        return 1
+    elif (n % 2 == 0):
+        return power(x,n//2) * power(x, n // 2)
+    else:
+        return x * power(x, n//2) * power(x, n // 2)
+    
+x=int(input("Enter base: "))
+n=int(input("Enter exponent: "))
+print("Result:", power(x,n))
