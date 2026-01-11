@@ -2,6 +2,7 @@ def binary_search_recursive(arr, target, low, high):
     if low > high:
         return -1  # base case: not found
 
+    
     mid = (low + high) // 2
 
     if arr[mid] == target:
@@ -20,4 +21,5 @@ if result != -1:
     print(f"Found at index {result}")
 else:
     print("Not found")
+
 
