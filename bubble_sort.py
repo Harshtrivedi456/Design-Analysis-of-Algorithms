@@ -10,3 +10,5 @@ def bubble_sort(arr):
 arr = [5, 1, 4, 2, 8]
 sorted_arr = bubble_sort(arr)
 print("Sorted array:", sorted_arr)
+
+
