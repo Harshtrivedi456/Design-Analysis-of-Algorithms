@@ -1,3 +1,4 @@
+
 def counting_sort(arr):
     if not arr:
         return []
@@ -17,3 +18,4 @@ def counting_sort(arr):
 arr = [4, 2, 2, 8, 3, 3, 1]
 sorted_arr = counting_sort(arr)
 print("Sorted Array:", sorted_arr)
+
